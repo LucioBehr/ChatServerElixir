@@ -1,0 +1,5 @@
+alias MultiUserChatServer, as: X
+X.start_link
+X.create_user(2, "Restyy")
+X.create_user(3, "jjj")
+X.send_message(2, 3, "aaaaa")
